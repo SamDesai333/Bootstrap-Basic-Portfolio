@@ -1,16 +1,14 @@
 
 body {
-
     font-family: Arial, Helvetica, sans-serif;
-    height:100%;
-    background: url("https://static.pexels.com/photos/531880/pexels-photo-531880.jpeg")
-
+    background: url("https://www.desktopbackground.org/download/o/2014/01/21/704662_digital-art-simple-backgrounds-wallpapers-hd-desktop-and-mobile_1920x1080_h.png");
+    margin:0;
+    height:0;
 }
 
 .navbar-header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4aaaa5;
-
+    color: #2a2b2b;
 }
 
 .row {
@@ -28,31 +26,35 @@ body {
     border-top-width:thin;
     border-left-width:thin;
     border-right-width:thin;
-    background: rgb(89, 121, 134);
-    filter:alpha(opacity(80));
-    -moz-opacity:.80;
+    background: rgb(248, 248, 248);
     opacity: .80;
-    
+    margin-bottom: 110px;
 
 }
-.col-xs-12{
-    margin:left;
-    padding: 25px;
-    border-style: solid;
-    border-radius: 0 10px 0 10px;
-    border-width: thin rgb(3, 3, 3);
-    border-bottom-width:thin;
-    border-top-width:thin;
-    border-left-width:thin;
-    border-right-width:thin;
-}
+
 h2{
     color: #2a2b2b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 p{
-    float: right;
+    
 }
+
 img{
     padding:10px;
     float:left;
+    opacity: 100%;
 }
+
+footer {
+    background:rgb(248, 248, 248);
+    position: bottom;
+    padding: 15px;
+    opacity: .80;
+}
+
+nav {
+    opacity: .80;
+}
+
