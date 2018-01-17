@@ -19,7 +19,7 @@ body {
 .col-xs-12{
     padding: 25px;
     text-align: left;
-    border-style: solid;
+    border-style: hidden;
     border-radius: 0 10px 0 10px;
     border-width: thin rgb(3, 3, 3);
     border-bottom-width:thin;
@@ -38,7 +38,8 @@ h2{
 }
 
 p{
-    
+    padding:10px;
+    margin-left: 10px;
 }
 
 img{
